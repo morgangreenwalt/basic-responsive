@@ -1,5 +1,5 @@
 body {
-	background-color: #e3e3e3;
+	background-image: url("http://www.publicdomainpictures.net/pictures/190000/velka/wood-background-1470203634Nfp.jpg");
 	color: #777;
 	margin: 0 auto;
 }
@@ -104,15 +104,12 @@ li {
 }
 
 .portfolio-row {
-	/*width: 50%;*/
 	float: left;
 	margin: 10px 10px;
 }
 
 #portfolio-picture {
-	/*margin-left: 15px;*/
 	position: relative;
-	/*margin-bottom: 15px;*/
 }
 
 #portfolio-title {
@@ -122,8 +119,6 @@ li {
     left: 0px;
     background-color: #4aaaa5;
     width: 100%
-    /*padding-left: 40px;
-    padding-right: 40px;*/
 }
 
 #portfolio-title h3 {
