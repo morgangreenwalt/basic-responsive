@@ -58,11 +58,11 @@ a {
 	margin-right: 215px;
 }
 
-.wrapper {
+/*.wrapper {
 	margin-left: 100px;
 	margin-left: 100px;
 	width: 960px;
-}
+}*/
 
 li {
 	list-style-type: none;
@@ -118,7 +118,7 @@ li {
     text-align: center;
     left: 0px;
     background-color: #4aaaa5;
-    width: 100%
+    width: 100%;
 }
 
 #portfolio-title h3 {
@@ -160,4 +160,99 @@ input[type=submit] {
 
 .social-icons {
 	text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+	.nav {
+		height: 100px;
+	}
+
+	.logo {
+		width: 100%;
+		margin-left: 0px;
+		text-align: center;
+		box-sizing: border-box;
+	}
+
+	li {
+		/*padding: 0px;*/
+		border: none;
+		/*margin-right: 0px;*/
+	}
+
+	ul {
+		padding-top: 55px;
+	}
+
+	.main-nav {
+		float: none;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	#about-picture {
+		float: none;
+    	text-align: center;
+	}
+
+	.main-nav {
+		margin-right: 0px;
+		float: none;
+	}
+
+	.nav {
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+}
+
+@media screen and (max-width: 1370px) {
+	.main-nav {
+		margin-right: 0px;
+	}
+
+	.main-content {
+		margin-left: 25px;
+	}
+
+	.connect {
+		margin-right: 25px;
+		margin-left: 25px;
+	}
+
+	.nav {
+		padding: 10px 25px;
+	}
+
+	.logo {
+		margin-left: 0px;
+	}
+}
+
+@media screen and (max-width: 994px) {
+	.main-content {
+		margin-left: 0px;
+		width: 100%;
+	}
+
+	.connect {
+		margin-right: 0px;
+		margin-left: 0px;
+		width: 100%;
+		text-align: center;
+	}
+
+	.nav {
+		padding: 10px 12px;
+	}
+
+}
+
+@media screen and (max-width: 630px) {
+	.portfolio-row {
+		float: none;
+		margin: 0px;
+		text-align: center;
+	}
 }
